@@ -28,4 +28,27 @@ public class MarshmallowMonster {
       this.earCount = earCount;
       this.hasHat = hasHat;
    }
+
+   public String getName(){
+      return this.name;
+   }
+   public double getTotalAppandageLength(){
+      return this.totalAppandageLength;
+   }
+   public double getTailLength(){
+      return this.tailLength;
+   }
+   public int getWingCount(){
+      return this.wingCount;
+   }
+   public int getEyeCount(){
+      return this.eyeCount;
+   }
+   public int getEarCount(){
+      return this.earCount;
+   }
+   public boolean getHasHat(){
+      return this.hasHat;
+   }
 }
+
