@@ -50,5 +50,17 @@ public class MarshmallowMonster {
    public boolean getHasHat(){
       return this.hasHat;
    }
-}
 
+   public String toString(){
+      String description = "This is a Marshmallow Monster! It's name is: " + name;
+      description += "\nThe monster has a total appandage length of " + totalAppandageLength;
+      description += "\nThe monster has a tail that is " + tailLength + "long";
+      description += "\nThe monster has " + wingCount + " wings";
+      description += "\nThe monster has " + eyeCount + "eyes";
+      description += "\nThe monster has " + earCount + "ears";
+      description += "\nThe monster " + ((hasHat) ? "does" : "does not") + " have a hat";
+
+      return description;
+   }
+}
+ 
